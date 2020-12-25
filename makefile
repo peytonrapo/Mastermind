@@ -5,6 +5,8 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
+	Matrix.java \
+	NeuralNetwork.java \
 	MastermindGame.java \
 	MastermindMain.java 
 
