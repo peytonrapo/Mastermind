@@ -55,4 +55,8 @@ public class MastermindGame {
 	public int getSpaces() {
 		return spaces;
 	}
+
+	public String getPossibleChars() {
+		return POSSIBLE_CHARACTERS;
+	}
 }
